@@ -66,7 +66,18 @@ public class Main {
 
         // Пишем код для задачи 4
 
-
+int diliveryDistance = 95;
+if (diliveryDistance <= 20){
+    System.out.println("Потребуется дней:  1 день.");
+}
+else if (diliveryDistance <=60){
+    System.out.println("Потребуется дней:  2 дня.");
+}
+else if (diliveryDistance <= 100) {
+    System.out.println("Потребуется дней:  3 дня.");
+}
+else
+    System.out.println("Свыше 100 км доставки нет.");
     }
 
 
@@ -75,6 +86,38 @@ public class Main {
         System.out.println("Задача 5");
 
         // Пишем код для задачи 5
+
+        int monthNumber = 12;
+        switch (monthNumber){
+            case 1:
+            case 2:
+                System.out.println("Месяц принадлежит к сезону зима.");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Месяц принадлежит к сезону весна.");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Месяц принадлежит к сезону лета.");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Месяц принадлежит к сезону осени.");
+                break;
+            case 12:
+                System.out.println("Месяц принадлежит к сезону зимы.");
+                break;
+            default:
+                break;
+
+
+
+
+        }
 
 
 
