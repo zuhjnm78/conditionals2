@@ -85,7 +85,7 @@ else
 
         System.out.println("Задача 5");
 
-        // Пишем код для задачи 5
+        // Пишем код для задачи 5.
 
         int monthNumber = 12;
         switch (monthNumber){
