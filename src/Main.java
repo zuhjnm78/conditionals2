@@ -64,7 +64,7 @@ public class Main {
 
         System.out.println("Задача 4");
 
-        // Пишем код для задачи 4
+        // Пишем код для задачи 4.
 
 int diliveryDistance = 95;
 if (diliveryDistance <= 20){
@@ -85,7 +85,7 @@ else
 
         System.out.println("Задача 5");
 
-        // Пишем код для задачи 5
+        // Пишем код для задачи 5.
 
         int monthNumber = 12;
         switch (monthNumber){
