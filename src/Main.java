@@ -64,7 +64,7 @@ public class Main {
 
         System.out.println("Задача 4");
 
-        // Пишем код для задачи 4
+        // Пишем код для задачи 4.
 
 int diliveryDistance = 95;
 if (diliveryDistance <= 20){
